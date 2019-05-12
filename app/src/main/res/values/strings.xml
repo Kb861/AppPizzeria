@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Pizza</string>
+    <string name="add">Dodaj</string>
+    <string name="topay">Do zapłaty:</string>
+    <string name="ready">Gotowe</string>
+    <string name="together">Razem</string>
+    <string name="choose_ingredients_from_the_list">Dobierz składniki z listy:</string>
+    <string name="createpizza">Utwórz pizzę</string>
 </resources>

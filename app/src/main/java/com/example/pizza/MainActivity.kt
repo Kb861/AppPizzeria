@@ -39,20 +39,18 @@ class MainActivity : AppCompatActivity() {
 
                 if (position == 0) {
                     apizza = Pizza()
-                    tv.text = apizza?.getPrice().toString()
                 }
                 if (position == 1) {
                     apizza = HamDecorator(apizza!!)
-                    tv.text = apizza?.getPrice().toString()
                 }
                 if (position == 2) {
                     apizza = CheeseDecorator(apizza!!)
-                    tv.text = apizza?.getPrice().toString()
                 }
                 if (position == 3) {
                     apizza = PineappleDecorator(apizza!!)
-                    tv.text = apizza?.getPrice().toString()
+
                 }
+                tv.text = apizza?.getPrice().toString()
             }
 
         }
